@@ -1,7 +1,9 @@
 {
   "name": "resume",
   "version": "0.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "connect-modrewrite": "^0.7.7"
+  },
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-autoprefixer": "~0.4.0",
@@ -30,7 +32,8 @@
     "karma-ng-scenario": "^0.1.0",
     "grunt-karma": "^0.8.3",
     "karma": "^0.12.21",
-    "karma-ng-html2js-preprocessor": "^0.1.0"
+    "karma-ng-html2js-preprocessor": "^0.1.0",
+    "grunt-contrib-coffee": "^0.11.0"
   },
   "engines": {
     "node": ">=0.10.0"
