@@ -1,0 +1,63 @@
+/* Colors */
+
+/* Navy
+ * r4 g6 b63
+ */
+$navy: #04063F;
+.navy {
+  background: $navy;
+  color: #fff;
+}
+.navy-text {
+  color: $navy;
+}
+
+/* Ocean
+ * r20 g85 b115
+ */
+$ocean: #145573;
+.ocean {
+  background: $ocean;
+  color: #fff;
+}
+.ocean-text {
+  color: $ocean;
+}
+
+/* Beige
+ * r242 g225 b186
+ */
+$beige: #f211ba;
+.beige {
+  background: $beige;
+}
+.beige-text {
+  color: $beige;
+}
+
+/* Gold
+ * r241 g188 b81
+ */
+$gold: #f1bc51;
+.gold {
+  background: $gold;
+  color: #fff;
+}
+.gold-text {
+  color: $gold;
+}
+
+/* Orange
+ * r242 g100 b67
+ */
+$orange: #f26443;
+.orange {
+  background: $orange;
+  color: #fff;
+}
+.orange-text {
+  color: $orange;
+}
+
+
+
