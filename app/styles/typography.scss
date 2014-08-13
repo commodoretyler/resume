@@ -17,3 +17,16 @@ h6 {
   font-family: $hind;
   font-weight: 600;
 }
+
+a,
+a:focus,
+a:visited,
+a:hover {
+  color: $orange;
+  text-decoration: none;
+  border-bottom: 5px solid transparent;
+}
+
+a:hover {
+  border-bottom: 5px solid $orange;
+}

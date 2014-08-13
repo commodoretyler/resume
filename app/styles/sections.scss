@@ -1,0 +1,17 @@
+.marketing {
+
+  > section {
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+    h2 {
+      margin-top: 0;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: normal;
+      color: $ocean;
+      letter-spacing: 0.08em;
+    }
+  }
+}
+
