@@ -1,0 +1,79 @@
+.marketing {
+
+  > section {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #ddd;
+
+    h2 {
+      margin-top: 0;
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: normal;
+      color: $ocean;
+      letter-spacing: 0.08em;
+    }
+
+    .entry {
+      margin: 2em 0;
+
+      .dates {
+        color: $orange;
+      }
+    }
+  }
+}
+
+.skills {
+
+  .skill-list-column {
+
+    .skill-list {
+      padding: 0;
+      margin: 0;
+      text-indent: 0;
+
+      > li {
+        list-style: none;
+      }
+
+      > dt {
+        width: 40%;
+        text-align: left;
+      }
+
+      > dd {
+        margin-left: 40%;
+      }
+    } /* .skill-list */
+  } /* .skill-list-column */
+} /* .skills */
+
+
+@media print {
+  .dates {
+    color: $orange;
+  }
+
+  .skill-list-column {
+    width: 33.3333%;
+  }
+
+  .skill-list {
+    .skill-perc {
+      display: none;
+    }
+
+    dt {
+      float: left;
+      width: 80px;
+    }
+    dd {
+      text-align: left;
+      float: left;
+      width: 100px;
+    }
+  }
+}
+

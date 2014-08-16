@@ -5,5 +5,6 @@ angular
     'ngCookies',
     'ngResource',
     'ngSanitize',
-    'ui.router'
+    'ui.router',
+    'ui.bootstrap'
   ]);

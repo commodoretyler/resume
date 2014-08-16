@@ -1,0 +1,17 @@
+.footer {
+  p {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #aaa;
+    text-align: center;
+  }
+}
+
+@media print {
+  .footer {
+    p {
+      color: #aaa;
+      text-align: center;
+    }
+  }
+}

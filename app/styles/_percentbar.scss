@@ -1,0 +1,20 @@
+.percentbar {
+  width: 100%;
+  text-align: left;
+
+  .percentage {
+    float: left;
+    width: 30px;
+  }
+
+  .bar-container {
+    float: left;
+    display: inline-block;
+    width: 170px;
+
+    .bar {
+      display: inline-block;
+      border-bottom: 10px solid $ocean;
+    }
+  }
+}
