@@ -30,6 +30,12 @@ a:hover {
   color: $orange;
   text-decoration: none;
   border-bottom: 5px solid transparent;
+
+  @include respond-to(print) {
+    &.print-no-show:link:after {
+      content: "";
+    }
+  }
 }
 
 a:hover {

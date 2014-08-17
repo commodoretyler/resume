@@ -29,10 +29,30 @@
   } /* .branding */
 
   .contact {
-    
+    padding: 0;
+    text-indent: 0;
+
+    @include respond-to(mobile) {
+      width: 100%;
+      float: none;
+      clear: both;
+      text-align: center;
+    }
+    @include respond-to(tablet-portrait) {
+      width: 100%;
+      float: none;
+      clear: both;
+      text-align: center;
+    }
+
     > li {
       list-style: none;
       line-height: 2em;
+
+      .fa {
+        display: inline-block;
+        margin: 0 6px 0 0;
+      }
 
       a {
         line-height: 14px;
@@ -62,6 +82,7 @@
   .header {
     .branding {
       text-align: left;
+      width: 40%;
 
       .initials {
         font-size: 36px;
@@ -82,7 +103,7 @@
     }
 
     .contact {
-      width: 40%;
+      width: 50%;
 
       li {
         font-size: 8px;

@@ -20,6 +20,10 @@
 
       .dates {
         color: $orange;
+
+        @include respond-to(print) {
+          color: $orange;
+        }
       }
     }
   }
@@ -38,42 +42,47 @@
         list-style: none;
       }
 
-      > dt {
+      dt {
         width: 40%;
+        float: left;
         text-align: left;
       }
 
-      > dd {
-        margin-left: 40%;
+      dd {
+        width: 60%;
+        float: left;
+        margin-left: 0;
       }
     } /* .skill-list */
   } /* .skill-list-column */
 } /* .skills */
 
-
 @media print {
-  .dates {
-    color: $orange;
-  }
 
   .skill-list-column {
     width: 33.3333%;
   }
 
-  .skill-list {
-    .skill-perc {
-      display: none;
-    }
+  .education {
+    page-break-before: always;
+    float: none;
 
-    dt {
-      float: left;
-      width: 80px;
+    .marketing & {
+      float: none;
     }
-    dd {
-      text-align: left;
-      float: left;
-      width: 100px;
+    div .marketing & {
+      float: none;
+    }
+    .container div .marketing & {
+      float: none;
+    }
+    body .container div .marketing & {
+      float: none;
+    }
+    html body .container div .marketing & {
+      float: none;
     }
   }
+
 }
 

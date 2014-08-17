@@ -10,11 +10,31 @@
   .bar-container {
     float: left;
     display: inline-block;
-    width: 170px;
+    width: 80%;
 
     .bar {
       display: inline-block;
       border-bottom: 10px solid $ocean;
+    }
+  }
+}
+
+@media print {
+  .percentbar {
+
+    .percentage {
+      display: block;
+      float: left;
+    }
+    .bar-container {
+      display: block;
+      float: right;
+      margin-top: -12px;
+
+      .bar {
+        border-bottom-width: 8px;
+        border-bottom-color: #000;
+      }
     }
   }
 }

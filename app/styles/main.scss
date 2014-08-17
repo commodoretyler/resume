@@ -10,6 +10,7 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 @import "//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css";
 
 // Import fonts
+@import 'mixins';
 @import 'fonts';
 @import 'colors';
 @import 'typography';
@@ -19,6 +20,7 @@ $icon-font-path: "/bower_components/bootstrap-sass-official/vendor/assets/fonts/
 
 // Directives
 @import 'percentbar';
+
 
 /* Space out content a bit */
 body {
