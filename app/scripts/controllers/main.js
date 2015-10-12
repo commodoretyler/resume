@@ -6,17 +6,15 @@ angular.module('resumeApp')
       title: 'Core Skills',
       skillArray: [
         { name: 'HTML5',        value: 99 },
-        { name: 'CSS3',         value: 96 },
-        { name: 'Javascript',   value: 90 },
-        { name: 'jQuery',       value: 90 },
-        { name: 'AngularJS',    value: 90 },
-        { name: 'Sass',         value: 80 },
+        { name: 'CSS3',         value: 99 },
+        { name: 'Javascript',   value: 97 },
+        { name: 'jQuery',       value: 95 },
+        { name: 'AngularJS',    value: 93 },
+        { name: 'Sass',         value: 85 },
         { name: 'PHP',          value: 80 },
         { name: 'Wordpress',    value: 90 },
-        { name: 'Git',          value: 80 },
-        { name: 'Drupal',       value: 55 },
+        { name: 'Git',          value: 90 },
         { name: 'Ruby on Rails',value: 30 },
-        { name: 'BatmanJS',     value: 25 }
       ]
     };
 
